@@ -1,4 +1,4 @@
-# CSC443-Web-Development
+# CSC443 Web Development
 
 First Given: Fall 2015
 Last Updated: Fall 2018

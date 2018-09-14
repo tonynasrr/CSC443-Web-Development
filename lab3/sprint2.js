@@ -1,24 +1,22 @@
 
-var p=document.getElementsByTagName("p");
-function design(number){
-	
-	var str="";
 
 
-for(var i=0;i<number;i++){
-	str+=str+"<br>";
-	for(var j=1;j<n-i;j++){
-		str=str+"&nbsp";
+
+var rows = prompt ("enter the number of rows");
+
+for(var i =1 ; i <= rows ; i++) {
+
+		for(var k = 0 ; k<rows-i; k++) {
+
+		document.write("&nbsp;");
 	}
-	for(var k=1;k<2*i+1;k++){
-		str=str+"*";
+
+	for(var j =0; j<i ; j++) {
+
+		document.write("*")
 	}
+
+
+
+	document.write("<br/>");
 }
-return str;
-}
-
-
-var number=prompt("enter a number");
-
-
-p.innerHTML=design(number);
